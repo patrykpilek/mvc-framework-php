@@ -9,7 +9,7 @@
   - Match the requested route to the list of routes in the routing table
   - Get the controller and action from a URL with a fixed structure
   - Get the controller and action from a URL with a variable
-
+  - Add custom variables of any format to the URL
 
 
 
