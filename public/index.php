@@ -5,6 +5,9 @@
  *
  */
 
+// Require the controller class
+require '../App/Controllers/Posts.php';
+
 /**
  * Routing
  */
@@ -14,10 +17,10 @@ $router = new Router();
 
 // Add the routes
 $router->add('', ['controller' => 'Home', 'action' => 'index']);
-$router->add('posts', ['controller' => 'Posts', 'action' => 'index']);
 $router->add('{controller}/{action}');
 $router->add('{controller}/{id:\d+}/{action}');
     
+/*
 // Display the routing table
 echo '<pre>';
 //var_dump($router->getRoutes());
@@ -35,3 +38,5 @@ if ($router->match($url)) {
 } else {
     echo "No route found for URL '$url'";
 }
+*/
+$router->dispatch($_SERVER['QUERY_STRING']);

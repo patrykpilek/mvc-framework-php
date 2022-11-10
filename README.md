@@ -1,7 +1,7 @@
 
 # PHP - MVC Framework From Scratch
 
--[x] Routing
+- [x] Routing
   - Create a central entry point to the framework: the front controller
   - Configure the web server to have pretty URLs
   - Create amd require (not include) the router class
@@ -10,6 +10,8 @@
   - Get the controller and action from a URL with a fixed structure
   - Get the controller and action from a URL with a variable
   - Add custom variables of any format to the URL
+- [ ] Controllers and Actions
+  - Dispatch the route: create the controller object and run the action method
 
 
 
