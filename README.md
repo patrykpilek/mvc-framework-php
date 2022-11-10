@@ -14,6 +14,7 @@
   - Dispatch the route: create the controller object and run the action method
   - Load classes automatically: add namespaces and an autoload function
   - Remove query string variables from the URL before matching to a route
+  - Pass route parameters from the route to all controllers
 
 
 
