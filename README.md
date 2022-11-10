@@ -12,6 +12,7 @@
   - Add custom variables of any format to the URL
 - [ ] Controllers and Actions
   - Dispatch the route: create the controller object and run the action method
+  - Load classes automatically: add namespaces and an autoload function
 
 
 
