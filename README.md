@@ -16,6 +16,7 @@
   - Remove query string variables from the URL before matching to a route
   - Pass route parameters from the route to all controllers
   - Action filters: call a method before and after every action in a controller
+  - Addendum: fix for a potential security bug introduced with the action filters
 
 
 
