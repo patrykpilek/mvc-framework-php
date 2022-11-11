@@ -20,6 +20,7 @@
   - Organise controllers in subdirectories: add a route namespace option
 - [ ] Views
   - Display a view: create a class to render views and use it in a controller
+  - Pass data from the controller to the view
 
 
 
