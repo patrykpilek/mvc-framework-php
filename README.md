@@ -18,9 +18,22 @@
   - Action filters: call a method before and after every action in a controller
   - Addendum: fix for a potential security bug introduced with the action filters
   - Organise controllers in subdirectories: add a route namespace option
+- [x] Views
+  - Display a view: create a class to render views and use it in a controller
+  - Pass data from the controller to the view
+  - Make vies easier to crate and maintain: add a template engine
+  - Remove repetition in the view templates: add a base template to inherit from
 
 
 
 ## Notes
 
 [PHP Live Regex](https://www.phpliveregex.com/)
+
+[Twig is a modern template engine for PHP](https://twig.symfony.com/)
+
+[Smarty PHP Template Engine](https://www.smarty.net/)
+
+[Laravel Blade templates](https://laravel.com/docs/9.x/blade)
+
+[Phalcon Bolt template engine](https://docs.phalcon.io/5.0/en/introduction)
