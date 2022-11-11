@@ -18,10 +18,11 @@
   - Action filters: call a method before and after every action in a controller
   - Addendum: fix for a potential security bug introduced with the action filters
   - Organise controllers in subdirectories: add a route namespace option
-- [ ] Views
+- [x] Views
   - Display a view: create a class to render views and use it in a controller
   - Pass data from the controller to the view
   - Make vies easier to crate and maintain: add a template engine
+  - Remove repetition in the view templates: add a base template to inherit from
 
 
 
