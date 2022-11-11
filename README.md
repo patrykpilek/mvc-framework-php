@@ -21,9 +21,18 @@
 - [ ] Views
   - Display a view: create a class to render views and use it in a controller
   - Pass data from the controller to the view
+  - Make vies easier to crate and maintain: add a template engine
 
 
 
 ## Notes
 
 [PHP Live Regex](https://www.phpliveregex.com/)
+
+[Twig is a modern template engine for PHP](https://twig.symfony.com/)
+
+[Smarty PHP Template Engine](https://www.smarty.net/)
+
+[Laravel Blade templates](https://laravel.com/docs/9.x/blade)
+
+[Phalcon Bolt template engine](https://docs.phalcon.io/5.0/en/introduction)
