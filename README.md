@@ -18,6 +18,8 @@
   - Action filters: call a method before and after every action in a controller
   - Addendum: fix for a potential security bug introduced with the action filters
   - Organise controllers in subdirectories: add a route namespace option
+- [ ] Views
+  - Display a view: create a class to render views and use it in a controller
 
 
 
