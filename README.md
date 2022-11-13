@@ -26,6 +26,7 @@
 - [x] Manage code using Composer
   - Install the template engine library using Composer
   - Use the Composer autoloader to load the template engine library
+  - Replace the autoload function with the Composer autoloader
 
 
 
