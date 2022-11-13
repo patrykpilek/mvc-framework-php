@@ -23,6 +23,8 @@
   - Pass data from the controller to the view
   - Make vies easier to crate and maintain: add a template engine
   - Remove repetition in the view templates: add a base template to inherit from
+- [x] Manage code using Composer
+  - Install the template engine library using Composer
 
 
 
@@ -37,3 +39,13 @@
 [Laravel Blade templates](https://laravel.com/docs/9.x/blade)
 
 [Phalcon Bolt template engine](https://docs.phalcon.io/5.0/en/introduction)
+
+[Composer - The Dependency Manager for PHP](https://getcomposer.org/)
+
+[Composer - How to Specify Package Versions](https://getcomposer.org/doc/articles/versions.md)
+
+[Composer - Installation Instructions](https://getcomposer.org/doc/00-intro.md)
+
+[Packagist - The PHP Package Repository](https://packagist.org/)
+
+[Install the template engine library using Composer](https://twig.symfony.com/doc/3.x/intro.html#installation)
