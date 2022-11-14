@@ -27,6 +27,8 @@
   - Install the template engine library using Composer
   - Use the Composer autoloader to load the template engine library
   - Replace the autoload function with the Composer autoloader
+- [ ] Models
+  - Add a model, get data from the database and display it in a view
 
 
 
