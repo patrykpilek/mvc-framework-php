@@ -32,6 +32,7 @@
   - Optimise the database connection: connect only on demand and reuse it
 - [x] Configuration and error handling
   - Put application configuration settings in a separate file
+  - Handle errors: convert errors to exceptions and add an exception handler
 
 
 ## Notes
@@ -55,3 +56,5 @@
 [Packagist - The PHP Package Repository](https://packagist.org/)
 
 [Install the template engine library using Composer](https://twig.symfony.com/doc/3.x/intro.html#installation)
+
+[Errors and error handling](https://www.php.net/manual/en/pdo.error-handling.php)
