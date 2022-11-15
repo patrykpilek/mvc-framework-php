@@ -34,6 +34,7 @@
   - Put application configuration settings in a separate file
   - Handle errors: convert errors to exceptions and add an exception handler
   - Configure PHP to display error messages
+  - Show detailed error messages to developers, friendly error messages to users
 
 
 ## Notes
