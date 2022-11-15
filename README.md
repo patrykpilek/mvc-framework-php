@@ -33,6 +33,7 @@
 - [x] Configuration and error handling
   - Put application configuration settings in a separate file
   - Handle errors: convert errors to exceptions and add an exception handler
+  - Configure PHP to display error messages
 
 
 ## Notes
