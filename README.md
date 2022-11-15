@@ -30,7 +30,8 @@
 - [x] Models
   - Add a model, get data from the database and display it in a view
   - Optimise the database connection: connect only on demand and reuse it
-
+- [x] Configuration and error handling
+  - Put application configuration settings in a separate file
 
 
 ## Notes
