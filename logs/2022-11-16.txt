@@ -1,0 +1,32 @@
+[16-Nov-2022 00:53:09 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Posts/index.html".'
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(396): Twig_Environment->compileSource('{% extends "bas...', 'Posts/index.htm...')
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(347): Twig_Environment->loadTemplate('Posts/index.htm...')
+#2 C:\xampp\htdocs\Core\View.php(51): Twig_Environment->render('Posts/index.htm...', Array)
+#3 C:\xampp\htdocs\App\Controllers\Posts.php(25): Core\View::renderTemplate('Posts/index.htm...', Array)
+#4 [internal function]: App\Controllers\Posts->indexAction()
+#5 C:\xampp\htdocs\Core\Controller.php(47): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\Core\Router.php(120): Core\Controller->__call('index', Array)
+#7 C:\xampp\htdocs\public\index.php(39): Core\Router->dispatch('posts/index')
+#8 {main}
+Thrown in 'C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php' on line 678
+[16-Nov-2022 22:30:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexdaAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\xampp\htdocs\Core\Router.php(120): Core\Controller->__call('indexda', Array)
+#1 C:\xampp\htdocs\public\index.php(32): Core\Router->dispatch('posts/indexda')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\Core\Controller.php' on line 51
+[16-Nov-2022 22:33:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\public\index.php(32): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 129
+[16-Nov-2022 22:36:25 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\public\index.php(32): Core\Router->dispatch('products/')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 129
+[16-Nov-2022 22:36:34 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\public\index.php(32): Core\Router->dispatch('productssdfa')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 129
+[16-Nov-2022 22:36:54 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\public\index.php(32): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 129
