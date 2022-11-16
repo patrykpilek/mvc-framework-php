@@ -36,6 +36,7 @@
   - Configure PHP to display error messages
   - Show detailed error messages to developers, friendly error messages to users
   - Categorise different types of error using HTTP status codes
+  - Add views to make error pages look nicer in production
 
 
 ## Notes
