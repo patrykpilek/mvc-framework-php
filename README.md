@@ -62,3 +62,11 @@
 [Install the template engine library using Composer](https://twig.symfony.com/doc/3.x/intro.html#installation)
 
 [Errors and error handling](https://www.php.net/manual/en/pdo.error-handling.php)
+
+[The Best PHP Frameworks for 2022](https://www.sitepoint.com/best-php-frameworks/)
+
+[Laravel PHP Framework](https://laravel.com/)
+
+[Slim PHP Framework](https://www.slimframework.com/)
+
+[Phalcon PHP Framework](https://phalcon.io/en-us)
